@@ -128,3 +128,40 @@ body {margin: 0px;}
 .s3-quotee {
     align-self: flex-end;
 }
+
+.section-4 {
+    padding: 100px 200px 100px 200px;
+    justify-content: stretch;
+}
+
+.s4-container {
+    flex: auto;
+    background-color: #3882f6;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+.s4-cta {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.s4-ctasub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.s4c-button {
+    flex: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 20px;
+}
