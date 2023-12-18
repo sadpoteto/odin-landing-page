@@ -73,3 +73,44 @@ body {margin: 0px;}
     font-weight: bold;
     border: 0px;
 }
+
+.section-2 {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.s2-infoheader {
+    padding: 32px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.s2-infocards {
+    justify-content: center;
+    gap: 32px;
+}
+
+.ic {
+    flex-direction: column;
+    flex-basis: 150px;
+    align-self: stretch;
+}
+
+.ic-img {
+    height: 150px;
+    width: auto;
+    border-radius: 16px;
+    border: 3px solid #3882f6;
+    background-color: #fff;
+}
+
+.ic-text {
+    text-align: center;
+    color: #7B818C;
+}
+
+.section-3 {
+    padding: 100px 0px 100px 0px;
+}
