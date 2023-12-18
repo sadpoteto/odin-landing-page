@@ -112,5 +112,19 @@ body {margin: 0px;}
 }
 
 .section-3 {
-    padding: 100px 0px 100px 0px;
+    padding: 100px 250px 100px 250px;
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+
+.s3-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    align-self: flex-start;
+}
+
+.s3-quotee {
+    align-self: flex-end;
 }
